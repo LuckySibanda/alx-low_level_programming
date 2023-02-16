@@ -1,11 +1,14 @@
 #include <stdio.h>
 
-/*
- *  This program prints the sizes of various types of data on current device
+/**
+ * main - Entry point
  *
- *  successful completion of the program
+ * This program prints the size of various types,
+ * It uses the sizeof operator to determine the size of each type,
+ * The program returns 0 to indicate successful
+ * completion of the program.
  *
- *  Return: Always 0 (Success)
+ * Return: Always 0 (Success)
  */
 int main(void)
 {

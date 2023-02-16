@@ -1,2 +1,2 @@
 #!/bin/bash
-cpp -o "${CFILE%.*}.i" -P $CFILE && mv "${CFILE%.*}.i" c
+gcc -c $CFILE

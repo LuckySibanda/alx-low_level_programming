@@ -2,14 +2,15 @@
 /**
  * main - Entry point
  *
- * This program prints a message with proper grammar
- * and includes a new line character at the end.
+ * This program prints the message
+ * It returns 0 to indicate
+ * successful completion of the program.
  *
- * Return: Always 0 (Success)
+ *Return: Always 0 (Success)
  */
 
 int main(void)
 {
-	puts("Programming is like buliding a multilingual puzzle\n");
-	return (0);
+puts("\"Programming is like buliding a multilingual puzzle\n");
+return (0);
 }

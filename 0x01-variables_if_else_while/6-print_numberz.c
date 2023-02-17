@@ -14,7 +14,7 @@ int main(void)
 		putchar("%d", num);
 	}
 
-	putchar('\n');
+	putchar("\n");
 
 	return (0);
 

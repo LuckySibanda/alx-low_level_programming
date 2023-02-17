@@ -4,6 +4,14 @@
 /* more headers goes there */
 
 /* betty style doc for function main goes there */
+/**
+ * main - Entry point for the program
+ *
+ * This function generates a random number and prints whether the number is
+ * positive, negative, or zero.
+ *
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
 	int n;
@@ -12,13 +20,16 @@ int main(void)
 	n = rand() - RAND_MAX / 2;
 	/* your code goes there */
 	printf("%d", n)
-		if (n > 0){
+		if (n > 0)
+		{
 			printf("is positive\n");
 		}
-	if else (n ==0){
+	if else(n == 0)
+	{
 		printf("is zero\n");
 	}
-	else{
+	else
+	{
 		printf("is negative\n");
 	return (0);
 }

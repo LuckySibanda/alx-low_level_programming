@@ -1,10 +1,14 @@
 #include <stdio.h>
-/*
- * main - the program starts here
- * This prints the alphabet in lower and uppercase using putchar function.
- * Return: always 0(Success)
+/* betty style doc for function main goes there */
+/**
+ * main - Entry point for the program
  *
+ * This function generates the alphabet in lowercase and uppercase
+ * using the putchar function.
+ *
+ * Return: Always 0 (Success)
  */
+
 int main(void)
 {
 	char alphabet;

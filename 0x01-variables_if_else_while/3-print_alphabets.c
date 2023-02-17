@@ -1,11 +1,12 @@
 #include <stdio.h>
-/*
- * The program starts here
+/* betty style doc for function main goes there */
+/**
+ * main - Entry point for the program
  *
- * This prints the alphabet in lower and uppercase using putchar function.
+ * This function generates the alphabet in lowercase and uppercase
+ * using the putchar function.
  *
- * Return: always 0(Success)
- *
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
@@ -13,15 +14,15 @@ int main(void)
 
 	for (alphabet = 'a'; alphabet <= 'z'; alphabet++)
 {
-	putchar(alphabet)
+	putchar(alphabet);
 }
 
 for (alphabet = 'A'; alphabet <= 'Z'; alphabet++)
 {
-	putchar(alphabet)
+	putchar(alphabet);
 }
 
-putchar("\n");
+putchar('\n');
 
 return (0);
 }

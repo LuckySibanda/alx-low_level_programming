@@ -1,11 +1,17 @@
 #include "main.h"
 
 /**
- * _islower - a function that checks for lowercase character
- * @c: single letter input
- * Return: 1 if int c is lowercase, 0 if otherwise
+ * add - Adds two integers and returns the result
+ * @a: First integer to be added
+ * @b: Second integer to be added
+ *
+ * Return: Sum of @a and @b
  */
-int add(int num1, int num2)
+int add(int a, int b)
 {
-	return (num1 + num2);
+
+	int sum = a + b;
+
+	return (sum);
+
 }

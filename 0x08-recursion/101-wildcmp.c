@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * wildcmp - functionthat compares two strings and returns
+ * wildcmp - function that compares two strings and returns
  * 1 otherwise return 0.
  * @s1: string source 1
  * @s2: string source 2
@@ -13,6 +13,8 @@ int wildcmp(char *s1, char *s2)
 	{
 		return (1);
 	}
-	else 
+	else
+	{
 		return (0);
+	}
 }

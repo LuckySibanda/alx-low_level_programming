@@ -12,4 +12,28 @@
 
 unsigned int _strspn(char *s, char *accept)
 {
+	int size = 0;
+	unsigned int bytes = 0;
+	char *tmp = accept;
+	int i;
+
+	while (*accept++)
+		size++;
+	accept = tmp;
+
+	while (*s)
+	{
+		accept = tmp;
+		i = 0;
+		while (accept < tmp + size)
+		{
+			if (*s == *accept)
+				bytes++, i++;
+			accept++;
+		}
+		if (i == 0)
+			break;
+		s++;
+	}
+	return (bytes);
 }

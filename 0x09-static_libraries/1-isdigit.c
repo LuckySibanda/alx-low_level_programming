@@ -1,14 +1,13 @@
 #include "main.h"
 
 /**
- * _isdigit - a function that checks for a digit (0 through 9)
- * @c: single letter input
- * Return: 1 if int c is lowercase, 0 if otherwise
+ * _isdigit - checks for a digit (0 through 9)
+ *
+ * @c: parameter hard-coded in main
+ *
+ * Return: 1 or 0
  */
+
 int _isdigit(int c)
 {
-	if (c >= '0' && c <= '9')
-		return (1);
-	else
-		return (0);
 }

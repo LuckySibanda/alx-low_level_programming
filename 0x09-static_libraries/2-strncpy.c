@@ -1,27 +1,16 @@
 #include "main.h"
+#include <stdio.h>
+
 /**
- * _strncpy - Copies a string.
- * @dest: Destination string.
- * @src: Source string.
- * @n: Maximum number of bytes to copy from src.
+ * _strncpy - function that concatenates two strings
  *
- * Return: Pointer to resulting string dest.
+ * @dest: parameter defined in main
+ * @src: parameter defined in main
+ * @n: parameter defined in main
+ *
+ * Return: memory address of function (string)
  */
+
 char *_strncpy(char *dest, char *src, int n)
 {
-	int j;
-
-	j = 0;
-	while (j < n && src[j] != '\0')
-	{
-		dest[j] = src[j];
-		j++;
-	}
-	while (j < n)
-	{
-		dest[j] = '\0';
-		j++;
-	}
-
-	return (dest);
 }

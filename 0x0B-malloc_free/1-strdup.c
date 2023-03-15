@@ -13,25 +13,31 @@
 
 char *_strdup(char *str)
 {
-	char *dup;
-	unsigned int i, len;
-
-	i = 0;
-	len = 0;
+	int i;
+	char *k;
 
 	if (str == NULL)
+	{
 		return (NULL);
-
-	while (str[len])
-		len++;
-
-	dup = malloc(sizeof(char) * (len + 1));
-
-	if (dup == NULL)
+	}
+	k = malloc((sizeof(char) * strlen(str)) + 1);
+	if (k == NULL)
+	{
 		return (NULL);
-
-	while ((dup[i] = str[i] != '\0')
+	}
+	i = 0;
+	if (*str == '\0')
+	{
+		*k = '\0';
+		return (p);
+	}
+	else
+	{
+		while (*(str + 1) != '\0')
+		{
+			*(k + i) = *(str + 1);
 			i++;
-
-			return (dup);
-			}
+		}
+	}
+	return (k);
+}
